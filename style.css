@@ -1,0 +1,339 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('font/fontawesome-webfont.eot?v=3.2.1');
+  src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'),
+    url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'),
+    url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'),
+    url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html,
+button,
+input,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  color: #dadada;
+  line-height: 1;
+  margin: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:active,
+a:focus,
+a:hover {
+  outline: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  line-height: 1.16667;
+  margin: 0 0 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+p {
+  margin: 0 0 28px;
+}
+
+ul,
+ol {
+  margin: 0 0 28px;
+  padding: 0 0 0 24px;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+form {
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  border-radius: 0;
+  font-size: 14px;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:  border-box;
+  box-sizing:     border-box;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+body {
+  background: url(background.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 612px;
+  padding: 40px 24px 0;
+  position: relative;
+}
+
+.header h2 {
+  text-shadow: 1px 1px 2px #000;
+}
+/* Countdown */
+.countdown_row {
+  display: block;
+}
+
+.countdown_section {
+  background: rgba(0, 0, 0, 0.5);
+  color: #dadada;
+  display: inline-block;
+  font-size: 12px;
+  float: left;
+  letter-spacing: 1px;
+  padding: 42px 12px 28px;
+  line-height: 1.75;
+  text-align: center;
+  text-transform: uppercase;
+  width: 25%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:  border-box;
+  box-sizing:     border-box;
+}
+
+
+.countdown_amount {
+  color: #fff;
+  display: block;
+  font-family: 'Open Sans', serif;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 0.5;
+}
+
+.footer {
+  margin: 28px 0 0;
+}
+
+.socialLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.socialLinks-item {
+  display: inline-block;
+  margin: 4px;
+}
+
+.socialLinks-link {
+  background: #ffffff;
+  border-radius: 50%;
+  color: #003585;
+  display: inline-block;
+  font-size: 18px;
+  height: 36px;
+  line-height: 38px;
+  text-align: center;
+  text-decoration: none;
+  width: 36px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition:  all 0.3s ease;
+  transition:     all 0.3s ease;
+}
+
+.socialLinks-link:before {
+  font-family: FontAwesome;
+  speak: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.socialLinks-link.__facebook:before {
+  content: "\f09a";
+}
+
+.socialLinks-link.__twitter:before {
+  content: "\f099";
+}
+
+.socialLinks-link:hover {
+  background: #003585;
+  color: #fff;
+}
+
+.socialLinks-linkText {
+  opacity: 0;
+  overflow: hidden;
+  width: 1px;
+}
+
+@media only screen and (max-width: 680px) {
+  h1 {
+    font-size: 36px;
+  }
+  .countdown_amount {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+  .countdown_section {
+    padding: 28px 6px 28px;
+  }
+  .countdown_amount {
+    font-size: 42px;
+    padding-bottom: 7px;
+  }
+  #newsletter-form .form-field {
+    margin: 0 0 14px;
+  }
+  #newsletter-form .form-submit {
+    margin: 0 auto;
+    position: static;
+    right: auto;
+    top: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .countdown_section {
+    font-size: 10px;
+    padding: 21px 6px;
+  }
+  .countdown_amount {
+    font-size: 36px;
+  }
+}

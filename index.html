@@ -1,9 +1,65 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Radio Refugio Azul</title>
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+  <link rel="stylesheet" type="text/css" media="all" href="audio.css">
 </head
 <body>
-    <h1>Radio Refugio Azul</h1>
-    <h2>Pronto</h2>
+  <div class="main">
+    <header class="header">
+      <h1>
+        <img src="./logo.png" />
+      </h1>
+      <h2>Radio Refugio Azul</h2>
+    </header>
+
+    <section class="timer">
+      <div id="timer" class="fade-in hasCountdown">
+        <span class="countdown_row countdown_show4">
+          <span class="countdown_section">
+            <span id="timerDay" class="countdown_amount">XX</span>
+            <br>Días
+          </span>
+
+          <span class="countdown_section">
+            <span id="timerHour" class="countdown_amount">XX</span>
+            <br>Horas
+          </span>
+
+          <span class="countdown_section">
+            <span id="timerMinute" class="countdown_amount">XX</span>
+            <br>Minutos
+          </span>
+
+          <span class="countdown_section">
+            <span id="timerSecond" class="countdown_amount">XX</span>
+            <br>Segundos
+          </span>
+        </span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="socialLinks">
+        <li class="socialLinks-item">
+          <a class="socialLinks-link __facebook" target="_blank"
+            href="http://facebook.com/radiorefugioazul">
+            <span class="socialLinks-linkText">Facebook</span>
+          </a>
+        </li>
+        <li class="socialLinks-item">
+          <a class="socialLinks-link __twitter" target="_blank"
+            href="http://twitter.com/rarefugioazul">
+            <span class="socialLinks-linkText">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <script type="text/javascript" src="./audio.js"></script>
+  <script type="text/javascript" src="./scripts.js"></script>
 </body>
 </html>
