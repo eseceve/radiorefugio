@@ -16,7 +16,7 @@
     var hour = document.getElementById('timerHour');
     var minute = document.getElementById('timerMinute');
     var second = document.getElementById('timerSecond');
-    var data = getTimeRemaining('2016-10-21T22:00:00');
+    var data = getTimeRemaining('2016-10-21T20:00:00');
 
     day.innerHTML = data.days;
     hour.innerHTML = ('0' + data.hours).slice(-2);
