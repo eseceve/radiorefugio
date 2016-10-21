@@ -192,13 +192,22 @@ textarea {
 }
 
 body {
-  background: url(background.jpg) no-repeat top center;
+  background: url(background.jpg) no-repeat center center;
   background-size: cover;
 }
 
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+
 .main {
+  background: rgba(0, 0, 0, .2);
+  height: 100%;
   margin: 0 auto;
-  max-width: 612px;
   padding: 40px 24px 0;
   position: relative;
 }
@@ -222,7 +231,7 @@ body {
   line-height: 1.75;
   text-align: center;
   text-transform: uppercase;
-  width: 25%;
+  width: 33%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing:  border-box;
   box-sizing:     border-box;
@@ -241,6 +250,11 @@ body {
 
 .footer {
   margin: 28px 0 0;
+}
+
+.timer {
+  margin: 0 auto;
+  max-width: 692px;
 }
 
 .socialLinks {
@@ -316,17 +330,7 @@ body {
   .countdown_amount {
     font-size: 42px;
     padding-bottom: 7px;
-  }
-  #newsletter-form .form-field {
-    margin: 0 0 14px;
-  }
-  #newsletter-form .form-submit {
-    margin: 0 auto;
-    position: static;
-    right: auto;
-    top: auto;
-  }
-}
+  }}
 
 @media only screen and (max-width: 360px) {
   .countdown_section {
