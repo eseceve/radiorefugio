@@ -341,3 +341,7 @@ body {
     font-size: 36px;
   }
 }
+
+.player {
+   text-align: center;
+}
